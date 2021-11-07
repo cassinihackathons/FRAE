@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FRÆ
 
 ## Table of contents
@@ -42,3 +43,6 @@ To try this on your local computer use the following commands in the terminal:
 `npm install`
 
 `npm start`
+=======
+# cassini
+>>>>>>> dcf169431b8add30c691c239a0973415d8e7cf3c
