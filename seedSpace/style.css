@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+/*font-family: 'Bungee', cursive;
+font-family: 'Bungee Hairline', cursive;*/
+
+body {
+  margin: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem 1.953rem;
+  grid-template-rows: 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem 3.172rem;
+  width: 23.438rem;
+  height: 50.75rem;
+  margin: 0.625rem auto;
+}
+
+.amount-box{
+  grid-column: 12/ 2;
+  grid-row: 10 / 12;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  font-family: "Bungee", cursive;
+} .amount-box .box{
+    background: #f5f5f5;
+    color: #3a5046;
+    font-size: 2.25rem;
+    font-weight: bold;
+    width: 150px;
+    height: 98px;
+    border-radius: 16px;
+    box-shadow: -4px -4px 0px #3a5046;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} .amount-box .box-title{
+  margin-left: 1.3rem;
+  font-size: 2.25rem;
+  line-height: 2.2rem;
+  color: #3a5046;
+
+}
+
+.CO2-offset-button-on-scoreboard {
+  grid-column: 12 / 2;
+  grid-row: 6 / 8;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  background: #F5F5F5;
+  color: #3a5046;
+
+  height: 15vh;
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.co2-h3-on-scoreboard {
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+}
+
+.co2-h2-on-scoreboard {
+  margin-top: -2rem;
+  margin-left: 6rem;
+  font-family: "Bungee", cursive;
+  font-size: 2.25rem;
+}
+
+.user-profile {
+  grid-column: 1 / 14;
+  grid-row: 2 / 14;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-img-score-board {
+  margin-left: 0.7rem;
+}
+
+.user-name {
+  margin-top: 0;
+  color: #3a5046;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Bungee Hairline', cursive;
+}
+
+.profile-stats {
+  grid-column: 1 / 14;
+  grid-row: 4 / 7;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  margin-left: -1rem;
+}
+
+.profile-stats h1 {
+  font-size: medium;
+  font-weight: bold;
+  color: #3a5046;
+  margin-top: 1rem;
+}
+
+.profile-stats-description {
+  grid-column: 1 / 14;
+  grid-row: 5 / 7;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  margin-left: -1rem;
+}
+
+.profile-stats-description {
+  font-size: small;
+  margin-top: -0.5rem;
+  color: #3a5046;
+}
+
+.profile-stats-description-tree {
+  margin-left: 1.6rem;
+}
+
+.profile-stats-description-offset {
+  margin-left: 2rem;
+}
+
+.profile-stats-description-iceland {
+  margin-left: 1rem;
+}
+
+.collection-bin-icon {
+  grid-column: 1 / 14;
+  grid-row: 2 / 14;
+  height: 70vh;
+  width: 100vw;
+  margin-top: 0.5rem;
+}
+
+.scan-new-box-button {
+  grid-column: 2 / 5;
+  grid-row: 14 / 15;
+  width: 35vw;
+  height: 5vh;
+  color: white;
+  border-radius: 16px;
+  background-color: #3a5046;
+}
+
+.scan-drop-box {
+  grid-column: 8 / 12;
+  grid-row: 14 / 15;
+  width: 35vw;
+  height: 5vh;
+  color: white;
+  border-radius: 16px;
+  background-color: #3a5046;
+  margin-left: -0.5rem;
+}
+
+.tree-info-title-h2 {
+  grid-column: 2 / 12;
+  grid-row: 2 / 3;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.birch-info-button {
+  grid-column: 2 / 12;
+  grid-row: 4 / 7;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.birch-icon {
+  width: 4.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.birch-title {
+  margin-top: -8rem;
+  margin-left: 8rem;
+}
+
+.birch-description {
+  margin-top: -1rem;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.pine-info-button {
+  grid-column: 2 / 12;
+  grid-row: 8 / 11;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.pine-icon {
+  width: 4.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.pine-title {
+  margin-top: -7rem;
+  margin-left: 8rem;
+}
+
+.pine-description {
+  margin-top: -1rem;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.alaska-osp-button {
+  grid-column: 2 / 12;
+  grid-row: 12 / 15;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.alaska-osp-icon {
+  width: 4.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.alaska-osp-title {
+  margin-top: -7.5rem;
+  margin-left: 6rem;
+}
+
+.alaska-osp-description {
+  margin-top: -0.5rem;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.user-info {
+  grid-column: 2 / 14;
+  grid-row: 2 / 4;
+  display: flex;
+  flex-direction: row;
+}
+
+.user-img {
+  width: 4.688rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  size: 2.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+
+h3 {
+  size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -1.3rem;
+  margin-left: 1.1rem;
+  font-weight: 500;
+}
+
+.CO2-offset-button {
+  grid-column: 12 / 2;
+  grid-row: 4 / 7;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.co2-h3 {
+  margin-top: 3rem;
+  margin-left: 4.5rem;
+}
+
+.co2-h2 {
+  margin-top: 1rem;
+  margin-left: 8rem;
+}
+
+.your-forest-button {
+  grid-column: 12 / 2;
+  grid-row: 8 / 11;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: 0.5rem;
+}
+
+.forest-growing-h3 {
+  margin-top: 2.5rem;
+  margin-left: 3.5rem;
+}
+
+.trees-img {
+  margin-left: 7.5rem;
+}
+
+.scan-button {
+  grid-column: 12 / 2;
+  grid-row: 12 / 15;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: -0.5rem;
+}
+
+.scan-box-h3 {
+  margin-top: 2.5rem;
+  margin-left: 5.7rem;
+}
+
+.qrcode-icon {
+  margin-left: 7.7rem;
+}
+
+.horizontal-line {
+  grid-column: 0 / 13;
+  grid-row: 16 / 17;
+  height: 0.063rem;
+  background-color: #f5f5f5;
+  width: 100vw;
+  margin-top: -1.3rem;
+}
+
+.footer {
+  grid-column: 2 / 12;
+  grid-row: 16 / 17;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  grid-column: 2 / 11;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.header a {
+  margin-right: -1rem;
+  color: #3a5046;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  margin-left: -3rem;
+  margin-top: -0.6rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #3a5046;
+  font-size: 2rem;
+}
+
+/*
+li a {
+  color: #cad3c8;
+  transition: 0.5s;
+}
+li a:hover {
+  color: #202020;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+*/

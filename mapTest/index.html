@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/3.38/esri/css/esri.css"
+    />
+
+    <script src="https://js.arcgis.com/3.38/"></script>
+
+    <style>
+      html,
+      body,
+      #map {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+    <script>
+      let map;
+      require([
+        "esri/map",
+        "esri/layers/ArcGISImageServiceLayer",
+        "esri/layers/ImageServiceParameters",
+        "dojo/parser",
+        "dojo/domReady!",
+      ], function (
+        Map,
+        ArcGISImageServiceLayer,
+        ImageServiceParameters,
+        parser
+      ) {
+        parser.parse();
+
+        map = new Map("map", {
+          basemap: "topo-vector",
+          center: [-18.8623, 65],
+          zoom: 7,
+        });
+
+        var params = new ImageServiceParameters();
+        params.noData = 0;
+        var imageServiceLayer = new ArcGISImageServiceLayer(
+          "https://image.discomap.eea.europa.eu/arcgis/rest/services/GioLandPublic/HRL_DominantLeafType_2018/ImageServer",
+          {
+            imageServiceParameters: params,
+            opacity: 0.75,
+          }
+        );
+        map.addLayer(imageServiceLayer);
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="map"></div>
+  </body>
+</html>
